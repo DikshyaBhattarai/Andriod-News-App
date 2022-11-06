@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--adding item to show in menu-->
+
+    <!--refresh page-->
+    <item android:id="@+id/action_refresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh_white"
+        app:showAsAction="always"/>
+
+    <!--copy link/url-->
+    <item android:id="@+id/action_copy"
+        android:title="copy"/>
+
+    <!--share link/url-->
+    <item android:id="@+id/action_share"
+        android:title="share"/>
+
+</menu>
